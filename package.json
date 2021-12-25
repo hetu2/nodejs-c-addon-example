@@ -1,0 +1,12 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node-gyp build && node index.js"
+  },
+  "dependencies": {
+    "node-gyp": "^8.4.1"
+  }
+}
