@@ -1,8 +1,13 @@
 {
   "targets": [
     {
-      "target_name": "addon",
+      "target_name": "hello",
       "sources": [ "hello.cc" ]
+    },
+    {
+
+      "target_name": "fibonacciCc",
+      "sources": [ "fibonacci.cc" ]
     }
   ]
 }

@@ -17,7 +17,7 @@ void Method(const FunctionCallbackInfo<Value>& args) {
 }
 
 void Initialize(Local<Object> exports) {
-  NODE_SET_METHOD(exports, "hello", Method);
+  NODE_SET_METHOD(exports, "world", Method);
 }
 
 NODE_MODULE(NODE_GYP_MODULE_NAME, Initialize)
