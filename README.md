@@ -1,13 +1,9 @@
 # Example how to run C++ code with NodeJS
 
-So 1000000 iteration fibonacci looks something like this:
+So 1000000000 iteration fibonacci looks something like this:
 
-default: 2.298ms
+C++ time: 431.226ms
 
-C++ time
+--- 
 
----
-
-default: 10.048ms
-
-NodeJS time
+NodeJS time: : 6.475s
