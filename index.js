@@ -26,7 +26,7 @@ function fibonacciJS() {
   let t2 = 1
   let nextTerm = 0
 
-  for (i = 1; i <= 1000000; i++) {
+  for (i = 1; i <= 1000000000; i++) {
     nextTerm = t1 + t2;
     t1 = t2;
     t2 = nextTerm;

@@ -16,8 +16,8 @@ namespace fibonacci
   void Fibonacci(const FunctionCallbackInfo<Value> &args)
   {
 
-      double n = 1000000, t1 = 0, t2 = 1, nextTerm = 0;
-      double output;
+      int32_t n = 1000000000, t1 = 0, t2 = 1, nextTerm = 0;
+      int32_t output;
 
       for (int i = 1; i <= n; ++i)
       {
@@ -32,7 +32,7 @@ namespace fibonacci
 
 
     Isolate *isolate = args.GetIsolate();
-    args.GetReturnValue().Set((double)output);
+    args.GetReturnValue().Set((int32_t)output);
   }
 
   void Initialize(Local<Object> exports)
